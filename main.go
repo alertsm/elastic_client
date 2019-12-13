@@ -33,7 +33,7 @@ func main() {
 	elasticConf := elasticsearch.Config{
 		Addresses: []string{"http://127.0.0.1:9200"},
 		Username:  "elastic",
-		Password:  "1234!@#$",
+		Password:  "1234",
 	}
 
 	// Initialize a client with the default settings.
